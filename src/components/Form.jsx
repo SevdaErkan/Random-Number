@@ -6,9 +6,13 @@ const Form = () => {
    const [random, setRandom] = useState(0);
 
    const randomNum = (min, max) => {
-      min = Math.ceil(min);
-      max = Math.floor(max);
-      return Math.floor(Math.random() * (max - min)) + min;
+       if (min < max) {
+         min = Math.ceil(min);
+         max = Math.floor(max);
+         return Math.floor(Math.random() * (max - min)) + min;
+      } else {
+         alert("Please input upper limit");
+      }
    };
 
    return (
