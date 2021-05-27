@@ -12,9 +12,7 @@ const Form = () => {
          return Math.floor(Math.random() * (max - min)) + min;
       } else {
          alert("Please input right number");
-         setRandom("");
-                     setMin("");
-                     setMax("");
+         
       }
    };
 
