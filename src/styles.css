@@ -1,0 +1,30 @@
+.App {
+   font-family: sans-serif;
+   text-align: center;
+   width: 400px;
+   margin: auto;
+   height: 150px;
+   background-color: #8eaddd;
+   padding: 30px;
+   margin-top: 100px;
+}
+label {
+   margin-right: 15px;
+}
+input {
+   width: 65%;
+   height: 30px;
+   margin: 10px auto;
+}
+#buttons {
+   width: 100%;
+   margin: auto;
+   margin-left: 100px;
+}
+.btns {
+   padding: 5px 10px;
+   color: rgb(48, 31, 31);
+   box-shadow: 2px 2px 2px #554e4e;
+   font-size: 15px;
+   border-radius: 3px;
+}
