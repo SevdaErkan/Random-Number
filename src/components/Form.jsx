@@ -11,7 +11,7 @@ const Form = () => {
          max = Math.floor(max);
          return Math.floor(Math.random() * (max - min)) + min;
       } else {
-         alert("Please input upper limit");
+         alert("Please input right number");
       }
    };
 
